@@ -1,8 +1,8 @@
 # Google API
 
-C# Google Drive API based application
+This is a Google API based C# command line application.
 
-## Usage
+## How to use
 
 ### Get File Object from ID/Path
 
@@ -39,3 +39,14 @@ gdrive --delete **item_id_or_path**
 ### Get Permission Information
 
 gdrive --getpermission **item_id_or_path**
+
+## Download
+Download the [Portable Version](https://github.com/softsingh/LyndaDecryptorUI/releases/download/portable/LyndaDecryptorUI.zip)
+
+## How to Compile
+- Download **credentials.json** from google api console. visit [link](https://developers.google.com/drive/api/v3/quickstart/dotnet) for more information.
+- Copy **credentials.json** to **GoogleApi\gdrive** folder.
+- Open **GoogleApi.sln** in Visual Studio.
+- Restore NuGet package (Tools -> NuGet Package Manager -> Manage Nuget Packages for Solution).
+- Save changes, close solution and reload it again.
+- Hit **Start** to compile.
