@@ -50,7 +50,7 @@ gdrive --delete **item_id_or_path**
 ```
 gdrive --getpermission **item_id_or_path**
 ```
-## Download
+## Download and Run
 - Download the [Portable Version](https://github.com/softsingh/GoogleApi/releases/download/Portable/gdrive.zip)
 - Extract the ZIP File
 - Download **credentials.json** from google api console. Visit [this link](https://developers.google.com/drive/api/v3/quickstart/dotnet) for more information.
